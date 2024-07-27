@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import AboutImg from "../assets/night.jpg";
 import Hero from "../components/hero/Hero";
+import Footer from "../components/footer/Footer";
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
         title="Services"
         btnClass="hide"
       />
+      <Footer />
     </>
   );
 };
