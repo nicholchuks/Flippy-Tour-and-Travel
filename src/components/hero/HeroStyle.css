@@ -34,6 +34,10 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
+/* .hero-mid h1 {
+    padding-top: 4rem !important;
+} */
+
 .hero-text p {
   font-size: 1.3rem;
   color: #fff;
@@ -49,6 +53,10 @@ img {
   font-weight: bold;
   letter-spacing: 2px;
   color: #222;
+}
+
+.hero-text .hide {
+  display: none;
 }
 
 @media screen and (max-width: 555px) {

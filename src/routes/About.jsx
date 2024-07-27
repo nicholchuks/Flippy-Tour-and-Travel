@@ -10,11 +10,8 @@ const About = () => {
       <Hero
         cName="hero-mid"
         heroImg={AboutImg}
-        title="Your Journey Your Story"
-        text="Choose Your Favorite Destination."
-        buttonText="Travel Plan"
-        url="/"
-        btnClass="show"
+        title="About"
+         btnClass="hide"
       />
     </>
   );

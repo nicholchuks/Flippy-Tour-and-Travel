@@ -1,7 +1,20 @@
 import React from "react";
+import Navbar from "../components/navbar/Navbar";
+import AboutImg from "../assets/night.jpg";
+import Hero from "../components/hero/Hero";
 
-const Service = () => {
-  return <div>Service</div>;
+const About = () => {
+  return (
+    <>
+      <Navbar />
+      <Hero
+        cName="hero-mid"
+        heroImg={AboutImg}
+        title="Services"
+        btnClass="hide"
+      />
+    </>
+  );
 };
 
-export default Service;
+export default About;
